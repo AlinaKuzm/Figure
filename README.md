@@ -1,9 +1,11 @@
 # DrawFigure
+
 Для упрощения реализации заменила "–" на "-" перед "p", пример:
 было: line –p [50, 50] [100, 100] -c rgb(255, 0, 0) -b rgba(0, 255, 0, 0.3)
 стало: line -p [50, 50] [100, 100] -c rgb(255, 0, 0) -b rgba(0, 255, 0, 0.3)  
 
 Для отрисовки нескольких фигур каждую вводить с новой строки
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.5.
 
 ## Development server
