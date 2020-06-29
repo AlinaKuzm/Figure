@@ -1,0 +1,9 @@
+<textarea placeholder="Enter the figure" type="text" [(ngModel)]="inputText" rows="8" cols="54"> </textarea>
+<br>
+<input type="submit" value="Draw" (click)="draw()">
+<input type="submit" value="Clear" (click)="clear()">
+
+<br> <br>
+<canvas class="canvas" id="myCanvas" width="400" height="450"
+        style="border:1px solid #000000;">Your browser does not support HTML5
+</canvas>
